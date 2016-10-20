@@ -1,0 +1,14 @@
+body {
+    width: 350px;
+    margin: auto;
+  }
+
+h1 {
+    font-size: 40px;
+  }
+
+p {
+      font-size: 18px;
+      padding: 12px;
+      border-left: 3px solid #040404;
+    }

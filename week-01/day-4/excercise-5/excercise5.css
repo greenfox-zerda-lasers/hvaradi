@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    font-size: 40px;
+  }
+
+h2 {
+      color: #E0B540;
+      font-size: 25px;
+    }
+
+h3 {
+      color: #E0B540;
+      font-size: 25px;
+    }
+
+p {
+      font-size: 15px;
+    }
+span {
+      color: red;
+    }
+.bluefruits > li {
+          color: blue;
+    }

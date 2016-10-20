@@ -1,0 +1,33 @@
+body {
+    width: 300px;
+    margin: auto;
+  }
+
+h1 {
+    font-size: 30px;
+  }
+
+div {
+      font-size: 18px;
+      padding: 30px;
+      border: 2px solid #040404;
+      margin: 30px 0px;
+    }
+
+.firstline {
+      background-image:url('duck.png');
+      background-position:left;
+      background-repeat:no-repeat;
+    }
+
+.secondline {
+      background-image:url('duck.png');
+      background-position:center;
+      background-repeat:no-repeat;
+    }
+
+.thirdline {
+      background-image:url('duck.png');
+      background-position:right;
+      background-repeat:no-repeat;
+    }
