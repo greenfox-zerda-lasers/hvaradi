@@ -1,0 +1,87 @@
+h1 {
+    font-size: 60px;
+    padding: 230px 350px;
+    font-family: 'Abril Fatface';
+    letter-spacing: 5px;
+    color: #222;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:50px;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans';
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:15px;
+    padding-bottom: 0px;
+    font-family: 'Josefin Sans';
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+}
+h4 {
+    font-size: 15px;
+    font-style: italic;
+    padding-top:0px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: 'Merriweather';
+}
+
+.header {
+      width: 100%;
+      height: 400px;
+      background-image:url('anakin.png');
+      background-size:cover;
+      background-repeat:no-repeat;
+      border-top: 5px solid black;
+}
+
+.intro {
+      display: block;
+      font-size: 35px;
+}
+
+.core {
+      width: 700px;
+      font-family: 'Josefin Sans';
+      padding: 50px 300px;
+      line-height: 30px;
+      font-size: 18px;
+}
+
+blockquote {
+          font-weight: bold;
+          font-size: 36px;
+          font-family:  'Abril Fatface';
+          background-color: #444444;
+          padding: 30px 50px;
+          width: 700px;
+          color: white;
+          letter-spacing: 2px;
+          margin: 35px 0px;
+          position: relative;
+          line-height: 70px;
+}
+
+blockquote::before {
+      content: '“';
+      font-size: 120px;
+}
+
+.bold {
+      font-weight: bold;
+      font-size: 25px;
+}
+
+hr {
+      border-style: solid;
+      border-width: 2.5px;
+      margin: 50px 0px;
+}
