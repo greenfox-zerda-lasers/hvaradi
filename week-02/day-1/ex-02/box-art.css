@@ -1,0 +1,47 @@
+article {
+    display:flex;
+    padding: 0px 166px;
+    height: 500px;
+    width: 539px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+header {
+    width: 539px;
+    height: 101px;
+    margin: 0 auto;
+    background-color: #00ffff;
+}
+.orange {
+    width: 100px;
+    height: 500px;
+    margin: 0;
+    background-color: #fea500;
+}
+.purple {
+    width: 100px;
+    height: 500px;
+    margin: 0;
+    background-color: #81007f;
+}
+main {
+    width: 300px;
+    height: 500px;
+    margin: 0;
+    background-color: #fe0000;
+    position: relative;
+}
+footer {
+    width: 539px;
+    height: 101px;
+    margin: 0 auto;
+    background-color: #0000fe;
+}
+main div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #000000;
+    right: 15px;
+    bottom: 15px;
+}
