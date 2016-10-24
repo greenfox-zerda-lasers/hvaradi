@@ -1,0 +1,65 @@
+article {
+    text-align: justify;
+    margin: 60px auto;
+    width: 600px;
+    box-sizing: border-box;
+}
+.kacsa1 {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+.kacsa2 {
+    float: right;
+    margin: 0px 0px 10px 10px;
+}
+p {
+    margin: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 2px solid #000000;
+}
+div {
+    width: 240px;
+    height: 200px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+  }
+.secondline {
+    width: 240px;
+    height: 50px;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    margin: 0px;
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+.firstline, .thirdline {
+    height: 80px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+.firstline {
+    color: red;
+    font-weight: bold;
+    padding: 20px;
+    height: 35px;
+  }
+.thirdline {
+    color: red;
+    padding: 10px 15px;
+    height: 35px;
+    width: 210px;
+    display: flex;
+    justify-content: flex-end;
+    }
+.ok, .cancel {
+    background-color: #b3b1b2;
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+    }
