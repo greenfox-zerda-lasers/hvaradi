@@ -3,6 +3,7 @@ article {
     margin: 60px auto;
     width: 600px;
     box-sizing: border-box;
+    position: relative;
 }
 .kacsa1 {
     float: left;
@@ -62,4 +63,10 @@ div {
     font-weight: bold;
     text-align: center;
     border: 0;
+    }
+body > div {
+    position: absolute;
+    top: 80px;
+    right: 550px;
+    background-color: white;
     }

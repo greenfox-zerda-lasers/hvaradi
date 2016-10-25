@@ -1,0 +1,221 @@
+.bigbox {
+    background: #dcd6cd;
+    margin: 60px auto;
+    padding: 60px 100px;
+    width: 820px;
+    height: 1200px;
+    font-family: 'Montserrat';
+  /*font-size: 25px;*/
+    color: #4a4261;
+    box-sizing: border-box;
+}
+.bigtitle {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #4a4261;
+}
+.boxinside {
+    background: white;
+    margin: 60px auto;
+    width: 620px;
+    height: 830px;
+}
+.first-section-container{
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 620px;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #dcd6cd;
+    border: 0px;
+}
+.szemelyes-adatok, .kapcsolat{
+    border: 0;
+    width: 300px;
+}
+.szemelyes-adatok{
+    border: 0;
+    width: 300px;
+    /*display: flex;
+    flex-direction: column;;
+    justify-content: space-between;*/
+}
+.title-1, .name-1, .born-gender-1, .brands-1, .text-1{
+    border: 1px solid grey;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.title-1, .name-1, .born-gender-1{
+    border: 1px solid grey;
+    width: 300px;
+    height: 60px;
+}
+.brands-1{
+    border: 1px solid grey;
+    width: 300px;
+    height: 180px;
+}
+.text-1{
+    border: 1px solid grey;
+    width: 300px;
+    height: 30px;
+}
+.title-2, .telephone-2, .e-mail-2, .facebook-2, .twitter-2, .house-2{
+    border: 0;
+    width: 300px;
+    height: 60px;
+}
+.title-1, .title-2{
+    background-color: #938c97;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    border: 1px solid grey;
+    width: 300px;
+    height: 30px;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 3px;
+}
+.born label{
+    /*font-size: 10px;*/
+}
+.born input{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+}
+.gender label{
+    font-weight: lighter;
+}
+.born-gender-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.born-gender-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.born, .gender{
+    border: 1px solid grey;
+    height: 60px;
+    width: 135px;
+    border: 0;
+}
+p{
+    padding:0px;
+}
+.brands-1 label{
+    font-weight: lighter;
+    font-size:12px;
+}
+.brands-1 input{
+    color: white;
+}
+.column1, .column2{
+    width: 150px;
+}
+.brand-inside{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.title1, .name-1, .born-gender-1, .brands-1{
+    border: 0;
+}
+.text-1{
+    color: grey;
+    font-weight: lighter;
+    border:0;
+}
+.piros{
+    color: red;
+}
+.telephone-2, .e-mail-2, .facebook-2, .twitter-2, .house-2 label{
+    font-size: 15px;
+    border: 0;
+    font-weight: bold;
+}
+.second-section-container{
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 620px;
+    height: 420px;
+    display: flex;
+    justify-content: space-around;;
+    flex-direction: column;
+    background-color: #dcd6cd;
+    border: 0px;
+}
+textarea {
+    color: white;
+    width: 620px;
+    height: 170px;
+}
+#textterulet{
+    font-family: 'Montserrat';
+    padding: 13px;
+    font-size: 14px;
+}
+.intro label{
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+}
+.cimsor{
+    font-weight: bold;
+}
+.mentes{
+    background-color: #4d4565;
+    color: white;
+    font-size: 20px;
+    padding: 8px 70px;
+    border-radius: 5px;
+    width: 220px;
+}
+.urlap{
+    background-color: #fbfbfb;
+    color: #4d4565;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.two-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CVbutton {
+    background-color: #fbfbfb;
+    color: #4d4565;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 220px;
+}
+.toppad {
+    padding-top: 10px;
+}
+.house-2 label {
+    display: block;
+}
+select {
+    width: 300px;
+    height: 60px;
+}
+select option:first-child {
+    display: none;
+}
