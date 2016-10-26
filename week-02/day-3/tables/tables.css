@@ -3,7 +3,7 @@
     margin: 5px;
     font-family: 'Open Sans';
     color: #bec5cd;
-    font-weight: lighter;
+    font-weight: 300;
     border: 0px;
     border-spacing: 0;
 }
@@ -26,6 +26,7 @@ tbody tr:nth-child(odd){
 td, th{
     height:80px;
     padding: 0 20px;
+    font-weight: 300;
 }
 th:first-child{
     border-radius: 5px 0px 0 0;
