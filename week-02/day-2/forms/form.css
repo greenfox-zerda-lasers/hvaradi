@@ -214,7 +214,8 @@ textarea {
 }
 select {
     width: 300px;
-    height: 60px;
+    height: 35px;
+    border-radius: 3px;
 }
 select option:first-child {
     display: none;

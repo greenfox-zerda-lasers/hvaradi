@@ -1,0 +1,28 @@
+.table{
+    width: 800px;
+    margin: 5px;
+    font-family: 'Open Sans';
+    font-size: 28px;
+}
+.head{
+    background-color: #1b1e24;
+    color: white;
+    height: 200px;
+}
+.body{
+    color: grey;
+    height: 100px;
+    background-color: white;
+}
+tbody tr:nth-child(odd){
+    background: #ebebeb;
+}
+.blueback{
+    width: 876px;
+    height: 598px;
+    background-color: #3e94ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
