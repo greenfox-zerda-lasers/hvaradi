@@ -1,0 +1,11 @@
+header {
+    height: 300px;
+    display: flex;
+    flex: 1;
+    background-color: #ebe4de;
+}
+.name {
+    background-color: #ebe4de;
+    font-size: 50px;
+    font-family: 'Poiret One';
+}
