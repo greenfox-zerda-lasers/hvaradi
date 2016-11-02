@@ -3,9 +3,40 @@ header {
     display: flex;
     flex: 1;
     background-color: #ebe4de;
+    border: 1px solid grey;
 }
-.name {
-    background-color: #ebe4de;
-    font-size: 50px;
-    font-family: 'Poiret One';
+main {
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+        border: 1px solid grey;
+}
+.leftside {
+    height: 1000px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+}
+.rightside {
+    height: 1000px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+}
+.ls-box {
+    width: 300px;
+    border: 1px solid grey;
+}
+h2 {
+    border-bottom: 1px solid grey;
+}
+.rs-box {
+    width: 300px;
+    border: 1px solid grey;
 }
