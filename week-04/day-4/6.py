@@ -6,7 +6,7 @@
 
 def count_ears(bunnies):
     if bunnies <= 1:
-        return 3        #utolsó visszatérési érték
+        return 2        #utolsó visszatérési érték
     else:
         if bunnies % 2 == 0:
             ears = 3
