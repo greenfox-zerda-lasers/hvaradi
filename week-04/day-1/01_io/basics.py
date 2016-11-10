@@ -17,7 +17,8 @@ print(readline('texts/zen_of_python.txt', 2))
 
 # 3. Create a method that gets a long sentence as param and gives back the contained words in a list
 def words(sentence):
-    result = sentence[0:-1]
+    # result = sentence[0:-1]
+    result = sentence.rstrip()
     result = result.split()
     return result
 
