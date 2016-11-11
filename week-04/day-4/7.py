@@ -2,6 +2,7 @@
 # lowercase 'x' chars have been changed to 'y' chars.
 
 def change_letters(word):
+    print(word)
     if word == "":
         return word
     else:
