@@ -10,8 +10,8 @@ ratio=(3**0.5/2)
 def tri(x,y,size):
     time.sleep(0.001)
     canvas.create_polygon(x,y,x+size,y,size/2+x,ratio*size+y,
-                            outline="tomato", fill="")
-    if size > 8:
+                            outline="medium turquoise", fill="")
+    if size > 6:
         tri(x,y,size/2)
         tri(x+size/2,y,size/2)
         tri(x+size/4,y+ratio*size/2, size/2)
