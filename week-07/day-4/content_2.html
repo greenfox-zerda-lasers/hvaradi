@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: innerHTML, textContent</title>
+</head>
+<body>
+  <p class="apple">apple</p>
+  <p class="balloon">banana</p>
+  <p class="cat">car</p>
+  <p class="dog">dolphin</p>
+
+  <script>
+    // fill every paragraph with the last one's content.
+    var pContent = document.getElementsByTagName('p')
+      for (i=0; i<pContent.length; i++) {
+        pContent[i].textContent = pContent[pContent.length -1].textContent
+      }
+  </script>
+  <!-- <script src="content-2.js"></script> -->
+</body>
+</html>

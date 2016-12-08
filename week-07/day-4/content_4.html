@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: innerHTML, textContent</title>
+</head>
+<body>
+  <ul>
+    <li>placeholder</li>
+    <li>placeholder</li>
+    <li>placeholder</li>
+    <li>placeholder</li>
+  </ul>
+
+  <script>
+    // replace the list items' content with items from this list:
+    // ['apple', 'banana', 'cat', 'dog']
+    var origList = document.getElementsByTagName('li');
+    var fruitList = ['apple', 'banana', 'cat', 'dog'];
+
+    for (i=0; i<origList.length; i++) {
+      origList[i].textContent = fruitList[i]
+    }
+  </script>
+  <script src="content-4.js"></script>
+</body>
+</html>

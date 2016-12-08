@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: innerHTML, textContent</title>
+</head>
+<body>
+  <h1>Original Content</h1>
+  <p>Some more text</p>
+  <p class="other">Even more text</p>
+  <p class="result">Here comes something new</p>
+
+  <script>
+    // 1. Alert the content of the heading.
+    var heading = document.getElementsByTagName('h1')
+      alert(heading[0].textContent);
+    // 2. Write the content of the first paragraph to the console.
+    var pContent = document.getElementsByTagName('p')
+      console.log(pContent[0].textContent);
+    // 3. Alert the content of the second paragraph.
+    var secondPara = document.getElementsByClassName('other')
+      alert(secondPara[0].textContent);
+    // 4. Replace the heading's content with 'New content'.
+        // var contentChange = document.body.removeChild(heading[0]);
+    heading[0].textContent = 'New content'
+    // 5. Replace the last paragraph's content with the first paragraph's content.
+    var pContent = document.getElementsByClassName('result')
+      pContent[2].textContent = 'Some more text'
+    var pContent = document.getElementsByTagName('p')
+      pContent[0].textContent = 'Here comes something new'
+  </script>
+  <!-- <script src="content-1.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: innerHTML, textContent</title>
+</head>
+<body>
+  <p>apple banana <strong>cat</strong> dog</p>
+  <p class="output1">elephant</p>
+  <p class="output2">fox</p>
+
+  <script>
+    // fill output1 with the first paragraph's content, text only.
+    var pContent = document.getElementsByTagName('p')
+        // var output1 = document.getElementsByClassName('output1')
+        // output1[0].textContent = pContent[0].textContent
+      pContent[1].textContent = pContent[0].textContent
+
+    // fill output2 with the first paragraph's content keeping the cat strong.
+    var pContent = document.getElementsByTagName('p')
+      pContent[2].innerHTML = pContent[0].innerHTML
+
+  </script>
+  <!-- <script src="content-3.js"></script> -->
+</body>
+</html>
