@@ -1,0 +1,24 @@
+<!-- // Add a click event listener to a <button> and console.log its innerHTML -->
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: show innerHTML</title>
+</head>
+<body>
+  <div>
+    <button>Push it, baby!</button>
+  </div>
+
+  <script>
+
+    var button = document.querySelector("button")
+    button.addEventListener("click", show_inner);
+
+    function show_inner() {
+      console.log(button.innerHTML);
+    }
+
+  </script>
+</body>
+</html>

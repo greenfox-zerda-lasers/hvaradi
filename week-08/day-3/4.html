@@ -1,0 +1,44 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Night</title>
+</head>
+<body>
+	<script>
+
+		var xhr = new XMLHttpRequest();
+		xhr.open('POST', 'https://docs.google.com/spreadsheets/d/1DsBUc4dZhp3_Sgn4IW2P0tnJB7bmIdV6BSYuKts15bU/edit#gid=0')
+		xhr.send()
+		xhr.onreadystatechange = ready
+
+		function ready (rsp) {
+			if( xhr.readyState === XMLHttpRequest.DONE ) {
+				var ize = JSON.parse(xhr.response)
+        list_it(ize)
+				console.log(ize);
+			}
+		}
+		var titles = document.querySelector('.moon-list');
+
+function list_it(ize) {
+ for(var i = 0; i < ize.response.docs.length; i++){
+     var article = document.createElement("h4")
+     var link = document.createElement("a")
+     var snippet = document.createElement("p")
+     var pub_date = document.createElement("p")
+     var list_elem = document.createElement("li")
+     link.setAttribute("href", ize.response.docs[i].web_url);
+     link.innerHTML = ize.response.docs[i].headline.main;
+     snippet.innerHTML = ize.response.docs[i].snippet;
+     pub_date.innerHTML = ize.response.docs[i].pub_date;
+     list_elem.appendChild(article);
+     list_elem.appendChild(snippet);
+     list_elem.appendChild(pub_date);
+     article.appendChild(link);
+     titles.appendChild(list_elem);
+ }
+}
+
+	</script>
+</body>
+</html>

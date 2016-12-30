@@ -60,9 +60,14 @@ button:active {
   top: 1px;
 }
 
-#result, #meaning {
+#result {
   font-size: 50px;
   margin-top: 40px;
+}
+
+#meaning {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #result:before {
@@ -71,6 +76,7 @@ button:active {
   font-weight: bold;
   display: block;
   text-transform: uppercase;
+  padding-bottom: 15px;
 }
 
 .height {

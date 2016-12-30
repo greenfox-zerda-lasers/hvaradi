@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SAM ROCKWELL</title>
+</head>
+<body>
+
+	<h1 data-hello="lol">I love you, Sam Rockwell!</h1>
+	<div class="bigger"><img></div>
+	<div class="smaller"></div>
+	<script>
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', 'http://api.giphy.com/v1/gifs/search?q=sam+rockwell+dancing&api_key=dc6zaTOxFJmzC&limit=16')
+		xhr.send()
+		xhr.onreadystatechange = ready
+
+		function ready (rsp) {
+			console.log( xhr.readyState )
+			if( xhr.readyState === XMLHttpRequest.DONE ) {
+				var ize = JSON.parse(xhr.response)
+				thumb(ize)
+				console.log(ize);
+			}
+		}
+
+		var bigger_pic = document.querySelector('.bigger img');
+		var thumbnails = document.querySelector('.smaller');
+
+		function thumb(ize) {
+	   for(var i = 0; i < ize.data.length; i++){
+	       var thumbnailImage = document.createElement("img");
+	       thumbnailImage.style.height = "100%";
+	       thumbnailImage.style.maxHeight = "100px";
+	       thumbnailImage.style.margin = "5 5px";
+				 thumbnailImage.dataset.fullurl = ize.data[i].images.original.url;
+	       thumbnailImage.setAttribute("src", ize.data[i].images.downsized.url);
+				 thumbnailImage.addEventListener("click", bigpicture);
+	       thumbnails.appendChild(thumbnailImage);
+	   }
+	}
+	function bigpicture() {
+		bigger_pic.setAttribute("src", this.dataset.fullurl);
+	}
+
+	</script>
+</body>
+</html>

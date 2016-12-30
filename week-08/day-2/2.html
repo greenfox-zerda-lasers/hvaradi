@@ -1,0 +1,32 @@
+<!-- // create a function that starts a setTimeout with a 3 second delay.
+// - create a button with an event listener that can cancel the setTimeout -->
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: cancel alert</title>
+</head>
+<body>
+  <div>
+    <button>Cancel that fucking pop-up window!</button>
+  </div>
+
+  <script>
+
+  var button = document.querySelector("button")
+
+  var setting_timeout = setTimeout(message, 1000);
+
+  var killing_timeout = function() {
+    clearTimeout(setting_timeout)
+  };
+
+  function message() {
+    alert("I'm delayed")
+  }
+
+  button.addEventListener("click", killing_timeout)
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!-- // imitate the setInterval functionality with setTimeouts (recreate the previous excersize) -->
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: log the mouse</title>
+</head>
+<body>
+  <script>
+
+    var x;
+    var y;
+    document.addEventListener("mousemove", tracking);
+
+    function tracking(event) {
+      x = event.screenX
+      y = event.screenY
+    }
+
+    function show_it() {
+      console.log(x, y);
+      repeted_timeout();
+    }
+
+    function repeted_timeout() {
+      setTimeout(show_it, 1500)
+    }
+
+    repeted_timeout()
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!-- // set up a setInterval loop with 1.5 second delays
+// - log the mouse coordinates on each call -->
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: log the mouse</title>
+</head>
+<body>
+  <script>
+    var x;
+    var y;
+
+      function show_it() {
+        console.log(x, y);
+      }
+
+      setInterval(show_it, 1500)
+
+      document.addEventListener("mousemove", tracking);
+
+      function tracking(event) {
+        x = event.screenX
+        y = event.screenY
+      }
+  </script>
+</body>
+</html>

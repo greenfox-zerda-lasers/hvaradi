@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-shrink: 0.5;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.navigation-pane {
+  padding: 15% 1%;
+}
+
+.leftbutton {
+  background-color: #fff;
+  background-image: url(./img/rightarrow.png);
+  background-size: contain;
+  border: none;
+  display: inline-block;
+  height: 60px;
+  transform: rotate(180deg);
+  width: 60px;
+}
+
+.rightbutton {
+  background-color: #fff;
+  background-image: url(./img/rightarrow.png);
+  background-size: contain;
+  border: none;
+  height: 60px;
+  width: 60px;
+}
+
+.leftbutton:focus, .rightbutton:focus {
+  outline: none;
+}
+
+.currentpic {
+  height: 45%;
+  width: 45%;
+}
+
+.thumbnail-box {
+  display: flex;
+  flex-shrink: 0.5;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.thumbnail-image {
+  height: 10%;
+  margin: 10px;
+  width: 10%;
+}
+
+.thumbnail-image:hover, .active-image {
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+}
