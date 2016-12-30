@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testtömeg-index kalkulátor</title>
+    <link rel="stylesheet" type="text/css" href="bmi_styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Testtömeg-index kalkulátor</h1>
+      <div id="calculator">
+        <form>
+          <label>
+            Magasság:
+            <span class="height">
+              <input type="text" id="height"> cm
+            </span>
+          </label><br>
+          <label>
+            Testsúly:
+            <span class="weight">
+              <input type="text" id="weight"> kg
+            </span>
+          </label><br>
+          <!-- <label>
+            Nem:
+            <input type="radio" id="man" name="gender" />
+            <label for="nem">Férfi</label>
+            <input type="radio" id="woman" name="gender" />
+            <label for="nem">Nő</label>
+          </label><br>
+          <label>
+            Életkor:
+            <select id="ageRange">
+              <option disabled selected value="0">-- Kérlek válassz! --</option>
+              <option value="0.3">19-24</option>
+              <option value="0.2">25-34</option>
+              <option value="0.15">35-44</option>
+              <option value="0.10">45-54</option>
+              <option value="0.05">55-64</option>
+              <option value="0.05">64-</option>
+            </select>
+          </label><br> -->
+          <button type="button" id="calculate">Számold ki!</button>
+        </form>
+      </div><!--calculator-->
+        <div id="result">
+          <div id="meaning"></div>
+        </div>
+    </div><!--container-->
+        <script type="text/javascript" src="bmi_script.js"></script>
+  </body>
+</html>
