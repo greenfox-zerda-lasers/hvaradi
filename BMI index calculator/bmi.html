@@ -21,14 +21,18 @@
               <input type="text" id="weight"> kg
             </span>
           </label><br>
-          <!-- <label>
-            Nem:
-            <input type="radio" id="man" name="gender" />
-            <label for="nem">Férfi</label>
-            <input type="radio" id="woman" name="gender" />
-            <label for="nem">Nő</label>
-          </label><br>
+
           <label>
+            Nem:
+            <span id="gender">
+              <input type="radio" id="man" name="gender" value="Férfi" />
+              <label for="man">Férfi</label>
+              <span class="proximity"></span>
+              <input type="radio" id="woman" name="gender" value="Nő" />
+              <label for="woman">Nő</label>
+            </span>
+          </label><br>
+          <!-- <label>
             Életkor:
             <select id="ageRange">
               <option disabled selected value="0">-- Kérlek válassz! --</option>
@@ -40,6 +44,7 @@
               <option value="0.05">64-</option>
             </select>
           </label><br> -->
+
           <button type="button" id="calculate">Számold ki!</button>
         </form>
       </div><!--calculator-->

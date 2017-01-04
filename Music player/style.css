@@ -1,0 +1,86 @@
+body {
+  background: #333 url('img/forest.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #312c43;
+}
+
+#container {
+  width: 700px;
+  height: 400px;
+  margin: 100px auto 0;
+  padding: 10px;
+  box-sizing: border-box;
+  /*background-color: #f7f5ed;*/
+  background-color: #f7f5ed;
+  box-shadow: 0 10px 15px -8px #000;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+#playlist {
+  width: 680px;
+  height: 330px;
+  /*border: 1px solid grey;*/
+  display: flex;
+}
+
+#player {
+  width: 680px;
+  height: 50px;
+  /*border: 1px solid grey;*/
+}
+
+#lists, #tracks {
+  width: 340px;
+  height: 330px;
+  /*border: 1px solid grey;*/
+}
+
+#header {
+  width: 340px;
+  height: 136px;
+  /*border: 1px solid grey;*/
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+.logo {
+  float: left;
+}
+
+.title {
+  height: 35px;
+  padding-top: 100px;
+  padding-left: 10px;
+}
+
+.album {
+  width: 135px;
+  height: 135px;
+  float: right;
+  border: 1px solid grey;
+  font-size: 10px;
+  color: grey;
+}
+
+#trackSelector {
+  height: 160px;
+  padding-top: 30px;
+}
+
+.musicTrack {
+  padding: 8px;
+  padding-left: 10px;
+}
+
+.musicTrack:nth-of-type(odd) {
+  background-color: #eaeaea;
+}
+
+#player {
+  background-color: red;
+}
