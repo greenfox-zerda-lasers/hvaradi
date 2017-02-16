@@ -46,6 +46,7 @@ body {
   font-size: 20px;
   font-family: Open Sans;
   font-weight: bold;
+  position: relative;
 }
 
 .logo {
@@ -67,9 +68,26 @@ body {
   color: grey;
 }
 
-#trackSelector {
-  height: 160px;
-  padding-top: 30px;
+tr {
+  width: 400px;
+}
+
+
+td {
+  height: 25px;
+  padding-top: 10px;
+}
+
+td:nth-child(2) {
+  width: 30px;
+}
+
+td:nth-child(3) {
+  width: 30px;
+}
+
+td:first-child {
+  width: 250px;
 }
 
 .musicTrack {
@@ -81,6 +99,17 @@ body {
   background-color: #eaeaea;
 }
 
-#player {
-  background-color: red;
+audio {
+  width: 90%;
+  margin: 10px 0 0 20px;
+}
+
+#trackSelector {
+  width: 100%;
+}
+
+.ion-plus-round {
+  float: right;
+  position: absolute;
+  padding: 0 10px 0 70px;
 }

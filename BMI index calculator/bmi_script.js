@@ -1,4 +1,5 @@
 // window.addEventListener("keydown")
+
 var meaning = document.getElementById("meaning");
 
 //Custom function
@@ -7,16 +8,17 @@ function calculateBMI() {
   var height = document.getElementById("height").value/100;
   var man = document.getElementById("man").checked;
   var woman = document.getElementById("woman").checked;
+  var gender = document.querySelector('input[name="gender"]:checked').value;
 
   //validation
-  if(weight === "" || height === "" || ) {
+  if(weight === "" || height === "") {
     return window.alert("Kérlek add meg a szükséges adatokat a kalkuláció elkészítéséhez!")
   }
 
   //calculation expanded by gender
   var index = 0;
 
-    if (man) {
+    if (gender == "Férfi") {
       index = (weight - 7) / height / height;
     } else {
       index = weight /  height / height;
@@ -68,6 +70,8 @@ document.getElementById("result").style.display = "none";
 document.getElementById("meaning").style.display = "none";
 
 //Clicking the button calls the custom function
-document.getElementById("calculate").onclick = function() {
-  calculateBMI();
-};
+// document.getElementById("calculate").onclick = function() {
+//   calculateBMI();
+// };
+
+document.getElementById("calculate").addEventListener("click", calculateBMI);

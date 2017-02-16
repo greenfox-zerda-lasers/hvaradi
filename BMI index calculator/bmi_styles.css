@@ -1,7 +1,12 @@
+$mainColor: #2f5572;
+
 body {
   background: #333 url('img/fruits.jpg') center center no-repeat;
   background-size: cover;
-  color: #312c43;
+  columns: 300px 2;
+  color: red;
+  color: $mainColor;
+  /*color: #312c43;*/
 }
 
 #container {
@@ -59,6 +64,7 @@ button:active {
   position: relative;
   top: 1px;
 }
+
 
 #result {
   font-size: 50px;

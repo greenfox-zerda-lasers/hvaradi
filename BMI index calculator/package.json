@@ -1,0 +1,25 @@
+{
+  "name": "bmi-index-calculator",
+  "version": "1.0.0",
+  "description": "just a simple bmi index calculator",
+  "main": "bmi_script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bmi"
+  },
+  "author": "",
+  "license": "ISC"
+}
