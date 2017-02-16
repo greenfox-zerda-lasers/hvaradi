@@ -1,0 +1,12 @@
+#innerDiv {
+  font-family: Arial;
+  background-color: gray;
+  color: white;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+
+#innerDiv:hover {
+  background-color: #bbb1a6;
+  color: black;
+}
