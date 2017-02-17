@@ -11,3 +11,15 @@ function sum(arr) {
   return result
 }
 console.log(sum(numbers));
+
+///////////////////////////////////////////
+function sum(arr) {
+  var result = 0;
+  var i = 0;
+  while (i<arr.length) {
+    result = result + arr[i];
+    i++
+  };
+  return result
+};
+console.log(sum(numbers));
