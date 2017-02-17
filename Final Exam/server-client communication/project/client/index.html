@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekend</title>
+</head>
+<style>
+body {
+  background: crimson;
+}
+#container {
+  width: 600px;
+  margin: 150px auto 0;
+  padding: 50px;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: 0 10px 15px -8px #000;
+  border-radius: 5px;
+  text-align: center;
+}
+input {
+  margin: 15px;
+}
+
+</style>
+<body>
+  <div id="container">
+    <p>Please fill the input fields with 2 numbers for the addition:</p>
+
+    <label for="firstNumber">My first number is:</label>
+    <input id="firstNumber" type="number"><br>
+
+    <label for="secondNumber">My second number is:</label>
+    <input id="secondNumber" type="number"><br>
+
+    <button>Please sum it up!</button>
+
+    <ul id="result"></ul>
+  </div>
+  <script src="client.js" charset="utf-8"></script>
+
+</body>
+</html>
