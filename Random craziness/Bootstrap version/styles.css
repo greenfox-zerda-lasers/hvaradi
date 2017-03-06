@@ -1,0 +1,40 @@
+button {
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #613d56;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+button:hover {
+  background: #adc2c2;
+  text-decoration: none;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#crazyContainer {
+  padding: 50px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 25px;
+  text-align: center;
+}
+
+.intro {
+  padding: 50px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+}
