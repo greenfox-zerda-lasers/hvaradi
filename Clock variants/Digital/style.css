@@ -1,0 +1,19 @@
+#clock {
+  text-align: center;
+  position: absolute;
+  left: 100px;
+  right: 150px;
+  top: 50%;
+}
+
+html, body {
+  height: 100%;
+}
+
+#clock {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 84px;
+  margin-top: -42px;
+}
+
+* {margin:0; padding:0;}
